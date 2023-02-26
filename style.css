@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+body{
+    height: 100vh;
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: -webkit-xxx-large;
+}
+h1, h2{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    font-size: large;
+    background: #f44336;
+    width: 9rem;
+    margin: 0 14px;
+    border-radius: 15px;
+    border: none;
+    padding: 4px;
+    font-weight: bold;
+    transition: all .08s;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.copyright{
+    margin: revert;
+}
